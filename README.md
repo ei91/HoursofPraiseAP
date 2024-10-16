@@ -1,4 +1,6 @@
 Hours of Praise App
+
+
 The Hours of Praise App is an engaging, user-friendly Christian event-based mobile application built using Swift and SwiftUI. The app is designed to provide a seamless user experience for concert attendees, offering features such as event details, donation functionality, and multimedia content, including videos and daily Bible verses. The app was crafted with attention to both aesthetics and user engagement, ensuring that each section delivers a purpose-driven experience for users.
 
 Key Features
