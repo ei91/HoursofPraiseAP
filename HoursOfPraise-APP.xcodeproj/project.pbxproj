@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDCFABD2CBFE10A00F32126 /* HoursOfPraise_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCFABC2CBFE10A00F32126 /* HoursOfPraise_APPApp.swift */; };
+		CEDCFABF2CBFE10A00F32126 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCFABE2CBFE10A00F32126 /* ContentView.swift */; };
+		CEDCFAC12CBFE10D00F32126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDCFAC02CBFE10D00F32126 /* Assets.xcassets */; };
+		CEDCFAC42CBFE10D00F32126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDCFAC32CBFE10D00F32126 /* Preview Assets.xcassets */; };
+		CEDCFAC62CBFE10D00F32126 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCFAC52CBFE10D00F32126 /* Persistence.swift */; };
+		CEDCFAC92CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEDCFAC72CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodeld */; };
+		CEDCFAD52CBFE10E00F32126 /* HoursOfPraise_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCFAD42CBFE10E00F32126 /* HoursOfPraise_APPTests.swift */; };
+		CEDCFADF2CBFE10E00F32126 /* HoursOfPraise_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCFADE2CBFE10E00F32126 /* HoursOfPraise_APPUITests.swift */; };
+		CEDCFAE12CBFE10E00F32126 /* HoursOfPraise_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCFAE02CBFE10E00F32126 /* HoursOfPraise_APPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDCFAD12CBFE10E00F32126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDCFAB12CBFE10A00F32126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDCFAB82CBFE10A00F32126;
+			remoteInfo = "HoursOfPraise-APP";
+		};
+		CEDCFADB2CBFE10E00F32126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDCFAB12CBFE10A00F32126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDCFAB82CBFE10A00F32126;
+			remoteInfo = "HoursOfPraise-APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDCFAB92CBFE10A00F32126 /* HoursOfPraise-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HoursOfPraise-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDCFABC2CBFE10A00F32126 /* HoursOfPraise_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_APPApp.swift; sourceTree = "<group>"; };
+		CEDCFABE2CBFE10A00F32126 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEDCFAC02CBFE10D00F32126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDCFAC32CBFE10D00F32126 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDCFAC52CBFE10D00F32126 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CEDCFAC82CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HoursOfPraise_APP.xcdatamodel; sourceTree = "<group>"; };
+		CEDCFACA2CBFE10D00F32126 /* HoursOfPraise_APP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HoursOfPraise_APP.entitlements; sourceTree = "<group>"; };
+		CEDCFACB2CBFE10D00F32126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDCFAD02CBFE10E00F32126 /* HoursOfPraise-APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HoursOfPraise-APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDCFAD42CBFE10E00F32126 /* HoursOfPraise_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_APPTests.swift; sourceTree = "<group>"; };
+		CEDCFADA2CBFE10E00F32126 /* HoursOfPraise-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HoursOfPraise-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDCFADE2CBFE10E00F32126 /* HoursOfPraise_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_APPUITests.swift; sourceTree = "<group>"; };
+		CEDCFAE02CBFE10E00F32126 /* HoursOfPraise_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursOfPraise_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDCFAB62CBFE10A00F32126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCFACD2CBFE10E00F32126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCFAD72CBFE10E00F32126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDCFAB02CBFE10A00F32126 = {
+			isa = PBXGroup;
+			children = (
+				CEDCFABB2CBFE10A00F32126 /* HoursOfPraise-APP */,
+				CEDCFAD32CBFE10E00F32126 /* HoursOfPraise-APPTests */,
+				CEDCFADD2CBFE10E00F32126 /* HoursOfPraise-APPUITests */,
+				CEDCFABA2CBFE10A00F32126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDCFABA2CBFE10A00F32126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCFAB92CBFE10A00F32126 /* HoursOfPraise-APP.app */,
+				CEDCFAD02CBFE10E00F32126 /* HoursOfPraise-APPTests.xctest */,
+				CEDCFADA2CBFE10E00F32126 /* HoursOfPraise-APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDCFABB2CBFE10A00F32126 /* HoursOfPraise-APP */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCFABC2CBFE10A00F32126 /* HoursOfPraise_APPApp.swift */,
+				CEDCFABE2CBFE10A00F32126 /* ContentView.swift */,
+				CEDCFAC02CBFE10D00F32126 /* Assets.xcassets */,
+				CEDCFAC52CBFE10D00F32126 /* Persistence.swift */,
+				CEDCFACA2CBFE10D00F32126 /* HoursOfPraise_APP.entitlements */,
+				CEDCFACB2CBFE10D00F32126 /* Info.plist */,
+				CEDCFAC72CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodeld */,
+				CEDCFAC22CBFE10D00F32126 /* Preview Content */,
+			);
+			path = "HoursOfPraise-APP";
+			sourceTree = "<group>";
+		};
+		CEDCFAC22CBFE10D00F32126 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCFAC32CBFE10D00F32126 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDCFAD32CBFE10E00F32126 /* HoursOfPraise-APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCFAD42CBFE10E00F32126 /* HoursOfPraise_APPTests.swift */,
+			);
+			path = "HoursOfPraise-APPTests";
+			sourceTree = "<group>";
+		};
+		CEDCFADD2CBFE10E00F32126 /* HoursOfPraise-APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCFADE2CBFE10E00F32126 /* HoursOfPraise_APPUITests.swift */,
+				CEDCFAE02CBFE10E00F32126 /* HoursOfPraise_APPUITestsLaunchTests.swift */,
+			);
+			path = "HoursOfPraise-APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDCFAB82CBFE10A00F32126 /* HoursOfPraise-APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDCFAE42CBFE10E00F32126 /* Build configuration list for PBXNativeTarget "HoursOfPraise-APP" */;
+			buildPhases = (
+				CEDCFAB52CBFE10A00F32126 /* Sources */,
+				CEDCFAB62CBFE10A00F32126 /* Frameworks */,
+				CEDCFAB72CBFE10A00F32126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HoursOfPraise-APP";
+			productName = "HoursOfPraise-APP";
+			productReference = CEDCFAB92CBFE10A00F32126 /* HoursOfPraise-APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDCFACF2CBFE10E00F32126 /* HoursOfPraise-APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDCFAE72CBFE10E00F32126 /* Build configuration list for PBXNativeTarget "HoursOfPraise-APPTests" */;
+			buildPhases = (
+				CEDCFACC2CBFE10E00F32126 /* Sources */,
+				CEDCFACD2CBFE10E00F32126 /* Frameworks */,
+				CEDCFACE2CBFE10E00F32126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDCFAD22CBFE10E00F32126 /* PBXTargetDependency */,
+			);
+			name = "HoursOfPraise-APPTests";
+			productName = "HoursOfPraise-APPTests";
+			productReference = CEDCFAD02CBFE10E00F32126 /* HoursOfPraise-APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDCFAD92CBFE10E00F32126 /* HoursOfPraise-APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDCFAEA2CBFE10E00F32126 /* Build configuration list for PBXNativeTarget "HoursOfPraise-APPUITests" */;
+			buildPhases = (
+				CEDCFAD62CBFE10E00F32126 /* Sources */,
+				CEDCFAD72CBFE10E00F32126 /* Frameworks */,
+				CEDCFAD82CBFE10E00F32126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDCFADC2CBFE10E00F32126 /* PBXTargetDependency */,
+			);
+			name = "HoursOfPraise-APPUITests";
+			productName = "HoursOfPraise-APPUITests";
+			productReference = CEDCFADA2CBFE10E00F32126 /* HoursOfPraise-APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDCFAB12CBFE10A00F32126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CEDCFAB82CBFE10A00F32126 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CEDCFACF2CBFE10E00F32126 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEDCFAB82CBFE10A00F32126;
+					};
+					CEDCFAD92CBFE10E00F32126 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEDCFAB82CBFE10A00F32126;
+					};
+				};
+			};
+			buildConfigurationList = CEDCFAB42CBFE10A00F32126 /* Build configuration list for PBXProject "HoursOfPraise-APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDCFAB02CBFE10A00F32126;
+			productRefGroup = CEDCFABA2CBFE10A00F32126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDCFAB82CBFE10A00F32126 /* HoursOfPraise-APP */,
+				CEDCFACF2CBFE10E00F32126 /* HoursOfPraise-APPTests */,
+				CEDCFAD92CBFE10E00F32126 /* HoursOfPraise-APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDCFAB72CBFE10A00F32126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCFAC42CBFE10D00F32126 /* Preview Assets.xcassets in Resources */,
+				CEDCFAC12CBFE10D00F32126 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCFACE2CBFE10E00F32126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCFAD82CBFE10E00F32126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDCFAB52CBFE10A00F32126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCFAC92CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodeld in Sources */,
+				CEDCFAC62CBFE10D00F32126 /* Persistence.swift in Sources */,
+				CEDCFABF2CBFE10A00F32126 /* ContentView.swift in Sources */,
+				CEDCFABD2CBFE10A00F32126 /* HoursOfPraise_APPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCFACC2CBFE10E00F32126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCFAD52CBFE10E00F32126 /* HoursOfPraise_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCFAD62CBFE10E00F32126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCFADF2CBFE10E00F32126 /* HoursOfPraise_APPUITests.swift in Sources */,
+				CEDCFAE12CBFE10E00F32126 /* HoursOfPraise_APPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDCFAD22CBFE10E00F32126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDCFAB82CBFE10A00F32126 /* HoursOfPraise-APP */;
+			targetProxy = CEDCFAD12CBFE10E00F32126 /* PBXContainerItemProxy */;
+		};
+		CEDCFADC2CBFE10E00F32126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDCFAB82CBFE10A00F32126 /* HoursOfPraise-APP */;
+			targetProxy = CEDCFADB2CBFE10E00F32126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEDCFAE22CBFE10E00F32126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDCFAE32CBFE10E00F32126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDCFAE52CBFE10E00F32126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HoursOfPraise-APP/HoursOfPraise_APP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoursOfPraise-APP/Preview Content\"";
+				DEVELOPMENT_TEAM = 93629N9B84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HoursOfPraise-APP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDCFAE62CBFE10E00F32126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HoursOfPraise-APP/HoursOfPraise_APP.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoursOfPraise-APP/Preview Content\"";
+				DEVELOPMENT_TEAM = 93629N9B84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HoursOfPraise-APP/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDCFAE82CBFE10E00F32126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoursOfPraise-APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoursOfPraise-APP";
+			};
+			name = Debug;
+		};
+		CEDCFAE92CBFE10E00F32126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoursOfPraise-APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoursOfPraise-APP";
+			};
+			name = Release;
+		};
+		CEDCFAEB2CBFE10E00F32126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HoursOfPraise-APP";
+			};
+			name = Debug;
+		};
+		CEDCFAEC2CBFE10E00F32126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93629N9B84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hop.HoursOfPraise-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HoursOfPraise-APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDCFAB42CBFE10A00F32126 /* Build configuration list for PBXProject "HoursOfPraise-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCFAE22CBFE10E00F32126 /* Debug */,
+				CEDCFAE32CBFE10E00F32126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDCFAE42CBFE10E00F32126 /* Build configuration list for PBXNativeTarget "HoursOfPraise-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCFAE52CBFE10E00F32126 /* Debug */,
+				CEDCFAE62CBFE10E00F32126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDCFAE72CBFE10E00F32126 /* Build configuration list for PBXNativeTarget "HoursOfPraise-APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCFAE82CBFE10E00F32126 /* Debug */,
+				CEDCFAE92CBFE10E00F32126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDCFAEA2CBFE10E00F32126 /* Build configuration list for PBXNativeTarget "HoursOfPraise-APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCFAEB2CBFE10E00F32126 /* Debug */,
+				CEDCFAEC2CBFE10E00F32126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEDCFAC72CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEDCFAC82CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodel */,
+			);
+			currentVersion = CEDCFAC82CBFE10D00F32126 /* HoursOfPraise_APP.xcdatamodel */;
+			path = HoursOfPraise_APP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEDCFAB12CBFE10A00F32126 /* Project object */;
+}
