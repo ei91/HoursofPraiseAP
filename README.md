@@ -46,3 +46,8 @@ The **Hours of Praise App** demonstrates the ability to combine technical skill,
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/ei91/HoursofPraiseAP.git
+
+
+2. **Open the Project in Xcode and build for your iOS device or simulator.**
+3.**Enjoy exploring the app and its features on your device!**
+
